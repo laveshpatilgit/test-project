@@ -47,3 +47,5 @@ def lambda_handler(event, context):
     if 'ruleParameters' in event:
         rule_parameters = json.loads(event['ruleParameters'])
     return evaluate_compliance(configuration_item, rule_parameters)
+
+#Adding the test message for testing
