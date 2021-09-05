@@ -7,7 +7,7 @@
 
 # Required Parameters: desiredInstanceType - t3.micro
 # Rule parameters are defined in template.yml
-
+#Adding test message
 import json
 
 # This rule needs to be uploaded with rule_util.py. 
